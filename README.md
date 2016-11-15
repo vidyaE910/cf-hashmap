@@ -13,8 +13,12 @@ The below are the steps to follow with hashmap-service.
 
 #####Steps
 
-* Download cf-hash-service.zip
-* unzip the package
+* Download cf-hash-service.tar.gz
+* Extract the package
+```
+tar -zxvf cf-hash-service.tar.gz
+cd cf-hash-service
+```
 * Build the app using Gradle:
 ```
    $ ./gradlew assemble 
@@ -53,8 +57,13 @@ $ cf create-service HaaSh basic hashmap-service
 ```
 
 * the Service is ready to consume. get the app and bind the above service
-* Download cf-hash-service.zip
-* unzip the package
+* Download cf-hash-service.tar.gz
+* Extract the package
+```
+tar -zxvf cf-hash-client.tar.gz
+cd cf-hash-client
+```
+
 * Build the app using Gradle:
 ```
 $ ./gradlew assemble
