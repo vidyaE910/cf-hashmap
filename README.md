@@ -16,14 +16,12 @@ The below are the steps to follow with hashmap-service.
 * Download cf-hash-service.zip
 * unzip the package
 * Build the app using Gradle:
-  ``` $ ./gradlew assemble ```
-  
-----
+   ----
+   $ ./gradlew assemble 
+   ----
+   
+* Target required CF Organization and Space to deploy the Service
 
-. Ensure that you have targeted your bosh-lite Cloud Foundry deployment, and push the app:
-+
-[source,bash]
-----
 $ cf push -m 512m -p build/libs/haash-broker-0.0.1-SNAPSHOT.jar haash-broker
 ----
 
