@@ -49,7 +49,7 @@ $ cf marketplace
 
 * Now Create Service Instance 
 ```
-$ cf create-service HaaSh basic my-hash
+$ cf create-service HaaSh basic hashmap-service
 ```
 
 * the Service is ready to consume. get the app and bind the above service
