@@ -1,15 +1,14 @@
-### cf-hashmap-service
+## cf-hashmap-service
 
-##### Contents
-
-This lab will guide you through:
-
-* deploying a Service Broker as an app to Cloud Foundry
-* registering the Broker with the Cloud Controller
-* making the single plan in the catalog ``public''
-* creating an instance of a service
-* pushing and binding a test app to that service
-* testing the app's interaction with the service
+#### Contents
+```
+  * deploying a Service Broker as an app to Cloud Foundry
+  * registering the Broker with the Cloud Controller
+  * making the single plan in the catalog ``public''
+  * creating an instance of a service
+  * pushing and binding a test app to that service
+  * testing the app's interaction with the service
+```
 
 The Service Broker for this lab is for a service called HashMap as a Service (HaaSh). It wraps a minimal REST API around a Java HashMap implementation, and each service creation event results in a newly allocated Map.
 
